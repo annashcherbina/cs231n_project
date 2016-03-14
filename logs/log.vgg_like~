@@ -1,0 +1,73 @@
+annashch@nandi:/srv/scratch/annashch/cs231n_project$ sh vgg_like.classify.nofreeze.differentsgd.sh 
+Using Theano backend.
+Couldn't import dot_parser, loading of dot files will not be possible.
+Using gpu device 1: GeForce GTX TITAN X (CNMeM is disabled, CuDNN 3007)
+/users/annashch/anaconda2/lib/python2.7/site-packages/theano/tensor/signal/downsample.py:5: UserWarning: downsample module has been moved to the pool module.
+  warnings.warn("downsample module has been moved to the pool module.")
+Compiling VGG Model...
+HELLO!!!!!!
+HELLO!!!!!!
+HELLO!!!!!!
+compilation finished, fitting model
+pretrained_model.trainLayersIndividually:0
+Train on 266665 samples, validate on 10000 samples
+Epoch 1/10
+266665/266665 [==============================] - 491s - loss: 4.8619 - acc: 0.0447 - val_loss: 4.4281 - val_acc: 0.0867
+Epoch 2/10
+266665/266665 [==============================] - 489s - loss: 4.2147 - acc: 0.1142 - val_loss: 3.8587 - val_acc: 0.1658
+Epoch 3/10
+266665/266665 [==============================] - 522s - loss: 3.9065 - acc: 0.1545 - val_loss: 3.6370 - val_acc: 0.1978
+Epoch 4/10
+266665/266665 [==============================] - 506s - loss: 3.7097 - acc: 0.1832 - val_loss: 3.5246 - val_acc: 0.2154
+Epoch 5/10
+266665/266665 [==============================] - 508s - loss: 3.5671 - acc: 0.2028 - val_loss: 3.4047 - val_acc: 0.2383
+Epoch 6/10
+266665/266665 [==============================] - 475s - loss: 3.4446 - acc: 0.2233 - val_loss: 3.3030 - val_acc: 0.2547
+Epoch 7/10
+266665/266665 [==============================] - 476s - loss: 3.3451 - acc: 0.2399 - val_loss: 3.3444 - val_acc: 0.2514
+Epoch 8/10
+266665/266665 [==============================] - 473s - loss: 3.2554 - acc: 0.2536 - val_loss: 3.2731 - val_acc: 0.2612
+Epoch 9/10
+266665/266665 [==============================] - 465s - loss: 3.1837 - acc: 0.2671 - val_loss: 3.2926 - val_acc: 0.2570
+Epoch 10/10
+266665/266665 [==============================] - 464s - loss: 3.1144 - acc: 0.2792 - val_loss: 3.2718 - val_acc: 0.2604
+10000/10000 [==============================] - 1s     
+evaluating pretrained model from assignment 3!
+266665/266665 [==============================] - 53s     
+evaluation is complete
+pretrained model training scores:[2.4674822804835421, 0.44185401158757243]
+evaluating pretrained model from assignment 3!
+10000/10000 [==============================] - 1s     
+evaluation is complete
+pretrained validation scores:[3.2717893242836, 0.26040000000000002]
+
+Epoch 1/10
+266665/266665 [==============================] - 498s - loss: 4.4777 - acc: 0.1543 - val_loss: 3.5397 - val_acc: 0.2225
+Epoch 2/10
+266665/266665 [==============================] - 502s - loss: 4.3763 - acc: 0.1648 - val_loss: 3.5370 - val_acc: 0.2241
+Epoch 3/10
+266665/266665 [==============================] - 495s - loss: 4.3257 - acc: 0.1687 - val_loss: 3.3923 - val_acc: 0.2530
+Epoch 4/10
+266665/266665 [==============================] - 492s - loss: 4.2793 - acc: 0.1727 - val_loss: 3.4584 - val_acc: 0.2360
+Epoch 5/10
+266665/266665 [==============================] - 485s - loss: 4.2482 - acc: 0.1747 - val_loss: 3.3978 - val_acc: 0.2426
+Epoch 6/10
+266665/266665 [==============================] - 496s - loss: 4.2140 - acc: 0.1779 - val_loss: 3.5060 - val_acc: 0.2270
+Epoch 7/10
+266665/266665 [==============================] - 491s - loss: 4.1917 - acc: 0.1790 - val_loss: 3.3892 - val_acc: 0.2453
+Epoch 8/10
+266665/266665 [==============================] - 483s - loss: 4.1749 - acc: 0.1811 - val_loss: 3.3382 - val_acc: 0.2509
+Epoch 9/10
+266665/266665 [==============================] - 485s - loss: 4.1564 - acc: 0.1822 - val_loss: 3.3290 - val_acc: 0.2610
+Epoch 10/10
+266665/266665 [==============================] - 478s - loss: 4.1426 - acc: 0.1828 - val_loss: 3.4723 - val_acc: 0.2340
+10000/10000 [==============================] - 2s     
+evaluating pretrained model from assignment 3!
+266665/266665 [==============================] - 48s     
+evaluation is complete
+pretrained model training scores:[3.2252629741808678, 0.28723304520653253]
+evaluating pretrained model from assignment 3!
+10000/10000 [==============================] - 1s     
+evaluation is complete
+pretrained validation scores:[3.4723407292366026, 0.23400000000000001]
+writing out the predictions file

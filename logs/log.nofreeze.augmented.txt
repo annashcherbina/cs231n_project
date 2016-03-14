@@ -1,0 +1,14 @@
+Couldn't import dot_parser, loading of dot files will not be possible.
+built dictionary of labels (id --> number) 
+loading validation data!
+image val shape:(10000, 64, 64, 3)
+loaded validation data:
+(10000, 3, 64, 64)
+loading test data!
+loaded test data:
+(10000, 3, 64, 64)
+loading training data!
+loaded training data
+(100000, 3, 64, 64)
+(100000, 200)
+augmenting training data!

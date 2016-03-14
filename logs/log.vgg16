@@ -1,0 +1,28 @@
+
+Couldn't import dot_parser, loading of dot files will not be possible.
+compilation finished, fitting model
+pretrained_model.trainLayersIndividually:0
+Train on 266665 samples, validate on 10000 samples
+Epoch 1/5
+266624/266665 [============================>.] - ETA: 0s - loss: 3.9954 - acc: 0.1386   
+266665/266665 [==============================] - 1176s - loss: 3.9953 - acc: 0.1386 - val_loss: 2.6918 - val_acc: 0.3502
+Epoch 2/5
+266665/266665 [==============================] - 1152s - loss: 2.4682 - acc: 0.3919 - val_loss: 2.1160 - val_acc: 0.4753
+Epoch 3/5
+266665/266665 [==============================] - 1141s - loss: 1.9126 - acc: 0.5156 - val_loss: 1.9501 - val_acc: 0.5199
+Epoch 4/5
+266665/266665 [==============================] - 1153s - loss: 1.5358 - acc: 0.6026 - val_loss: 1.9136 - val_acc: 0.5383
+Epoch 5/5
+266665/266665 [==============================] - 1152s - loss: 1.2299 - acc: 0.6756 - val_loss: 2.0271 - val_acc: 0.5352
+10000/10000 [==============================] - 9s      
+evaluating pretrained model from assignment 3!
+266665/266665 [==============================] - 308s     
+evaluation is complete
+pretrained model training scores:[0.89876678112593311, 0.7597284983031144]
+evaluating pretrained model from assignment 3!
+10000/10000 [==============================] - 12s     
+evaluation is complete
+pretrained validation scores:[2.0270705592632292, 0.53520000000000001]
+writing out the predictions file
+annashch@nandi:/srv/scratch/annashch/cs231n_project$ 
+annashch@nandi:/srv/scratch/annashch/cs231n_project$ ls -ltrah 
