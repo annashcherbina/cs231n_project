@@ -1,0 +1,17 @@
+rm(list=ls())
+source('helpers.R')
+library(data.table)
+library(ggplot2)
+library(reshape2)
+data=data.frame(read.table("freeze.txt",header=T,sep='\t'))
+p1<-ggplot(data,aes(x=Epoch,y=Loss))+
+  geom_line(size=4)+
+  theme_bw(40)+
+  xlab("Epoch")+
+  ylab("Loss")
+p2<-ggplot(data,aes(x=Epoch,y=Accuracy))+
+  geom_line(size=4)+
+  theme_bw(40)+
+  xlab("Epoch")+
+  ylab("Training\nAccuracy")
+multiplot(p1,p2,cols=1)
